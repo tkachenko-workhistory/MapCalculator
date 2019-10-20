@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapCalculator", "MapCalculator\MapCalculator.csproj", "{70FAA321-9351-4386-BCEC-8877CB3547C5}"
 EndProject
@@ -10,6 +10,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kriging", "IDW\Kriging.csproj", "{B24CE088-51D8-479F-81C3-0DDAC5B00BD2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KrigingTests", "IDWTests\KrigingTests.csproj", "{F6B79364-270B-4A3F-976F-A9061161FD48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Вложения", "Вложения", "{9D63BF62-A94C-4115-ABAE-08C93D9518B9}"
+	ProjectSection(SolutionItems) = preProject
+		Вложения\input.txt = Вложения\input.txt
+		Вложения\Kriging.pdf = Вложения\Kriging.pdf
+		Вложения\output.xyz = Вложения\output.xyz
+		Вложения\testmap.html = Вложения\testmap.html
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +44,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43571D50-CC4A-4224-9F1F-BCD3B0EB5C16}
 	EndGlobalSection
 EndGlobal
